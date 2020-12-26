@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+# Global config info
+LOGDIR="/opt/dropbox/logs"
+
+
+# configuration for the reverse SSH tunnel
+
+REVSSH_ENABLED=0                           # 1 = on, 0 = off
+REVSSH_C2_USER="drift"                     # user on the C2 box
+REVSSH_C2_IP="192.168.1.173"               # IP of the C2 box
+REVSSH_C2_LOCALPORT=6667
+REVSSH_KEYPATH="/home/kali/.ssh/rev-ssh"   # path on dropbox to the ssh key for the C2 box
+REVSSH_LOG="$LOGDIR/dropbox.log" # path to dropbox log file
