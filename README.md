@@ -31,5 +31,4 @@ On the C2 Server:
 ```
 1. configure SSH on the C2 server to accept connections with a key from the dropbox
 
-```# dropbox
-Raspberry Pi dropbox for pen-testing 
+```
